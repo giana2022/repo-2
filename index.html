@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"><!--Para que salgan los símbolos de acento y ñ-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Es importante a los fines de que sea responsiva-->
+        <title>Recetas de cocina --Codo a Codo--</title>
+        <link rel="icon" href="..\img\icono.ico" type="image/x-icon"> <!--Para poner un icono
+        -convertico
+        -png egg
+        -->
+        <!--Configuraciones para el navegador-->
+        <link rel="stylesheet" href="..\css\estilo.css"> 
+        <!-- <style>
+            h1 {
+                background-color: greenyellow;
+            }
+        </style> -->
+    </head>
+    <body>
+<!--         <b>negritas</b>
+        <i>itálica</i> -->
+        <header>
+            <h1>Recetas Codo a Codo</h1>
+            <h2 class="oscuro">Las mejores comidas</h2>
+        </header>
+        <nav>
+            <ul> <!--NUNCA COPIAR RUTA ABSOLUTA-->
+                <!--Las rutas relativas se ROMPEN solo si movemos el archivo respecto de sí mismo.
+                Aunque eso no significa que no se pueda depender de terceros y no se necesita de ello-->
+                <li><a href="pages\pizza.html">Receta de pizza</a></li>
+                <li><a href="pages\lasagna.html">Receta de lasagna</a></li>
+                <!-- <a href="...\"></a> -->
+            </ul>
+        </nav>
+        <footer>
+            <p>Para más recetas:<a href="https://www.paulinacocina.net/" target="_blank">Ir a paulina cocina</a></p> <!--Posicionamiento absoluto-->
+            <a href="pages\contacto.html" id="contactoEnlace">Contactanos</a>
+            <p class="oscuro subrayado">Copy gianita</p>
+        </footer>
+        <!--Posicionamiento relativo-->    
+    
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26379.85991787629!2d-62.72518348263652!3d-34.26174665811138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c60f44982b9b8b%3A0xa505a59096cf4a9b!2sRufino%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1692036818004!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+        <!--<label for="nombre">Ingrese su nombre:</label>
+        <br>
+        <input type="text" id="nombre" name="nombre"></input> -->
+    </body>
+</html>

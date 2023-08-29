@@ -1,0 +1,39 @@
+/*Selector de etiqueta*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    background-image: url("../img/pizzaback.jpg");
+}
+
+h1 {
+    background-color: greenyellow;
+    margin: 0px;
+}
+
+/*Selector de id*/
+#contactoEnlace {
+    color: green;
+    text-decoration: none;
+}
+
+/*Selector de class*/
+.oscuro {
+    background-color: bisque;
+}
+
+.subrayado {
+    text-decoration: underline;    /*Subraya el texto*/
+}
+
+nav, footer {
+    background-color: bisque;
+}
+
+
+/*
+selector universal:
+*{
+    background-color:#3498db;
+}
+
+*/
