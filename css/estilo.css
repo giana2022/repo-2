@@ -19,6 +19,7 @@ h1 {
 /*Selector de class*/
 .oscuro {
     background-color: bisque;
+    margin-top: 0px;
 }
 
 .subrayado {
