@@ -30,6 +30,9 @@ nav, footer {
     background-color: bisque;
 }
 
+footer {
+    font-size: small;
+}
 
 /*
 selector universal:
@@ -38,3 +41,12 @@ selector universal:
 }
 
 */
+
+header, nav, footer {
+    opacity: 80%;
+}
+
+p:first-child{
+    background-color: greenyellow;
+    font-size: medium;
+}
