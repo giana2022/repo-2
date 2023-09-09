@@ -43,10 +43,25 @@ selector universal:
 */
 
 header, nav, footer {
-    opacity: 80%;
+    opacity: 85%;
+}
+
+img{
+    opacity: 100%;
 }
 
 p:first-child{
     background-color: greenyellow;
     font-size: medium;
 }
+
+.menu-img {
+    display: flex;
+    column-gap: 10px;
+}
+
+img {
+    height: 15em;
+    width: 17em;
+}
+
